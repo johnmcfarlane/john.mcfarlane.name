@@ -1,0 +1,43 @@
+div.pg
+{
+}
+
+div.header
+{
+	max-width:780px;
+	text-align:center;
+}
+
+div.body
+{
+	max-width:780px;
+	text-align:left;
+}
+
+div.footer 
+{
+	max-width:780px;
+	text-align:center;
+}
+
+h1 
+{
+	font-size:xx-large;
+	text-align:center;
+	//background-color:#000000;
+	//color:#ffffff
+}
+
+h2 
+{
+	font-size:x-large;
+}
+
+.project_year
+{
+}
+
+.project_title
+{
+}
+

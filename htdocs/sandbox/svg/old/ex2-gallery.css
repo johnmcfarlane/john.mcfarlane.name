@@ -1,0 +1,20 @@
+.thumbnails {
+    width:512px; margin: auto;
+    border-style:solid; background-color: grey;
+    background-image: url("banner-background.jpg");
+}
+img.thumb { 
+    width: 100px; height: 75px; margin: 5px; 
+    border-style: solid; border-color: blue;
+}
+object.thumb {
+    width: 104px; height: 79px; margin: 5px;
+}
+object.preview {
+    width:512px; height:512px;
+}
+div.preview {
+    width:512px; height:384px; margin: auto;
+    border-style:solid; background-color: lightgrey;
+}
+img.preview { width:512px; }

@@ -1,0 +1,10 @@
+body { 
+	text-align:center;
+}
+#outer { 
+	width:expression("700px");
+}
+#inner {
+	width:expression("630px");
+	text-align:left;
+}

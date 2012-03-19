@@ -1,0 +1,3 @@
+.resume, .objectives_section, .org_location { display:none }
+ul.proj_details { display:none }
+.cv, .personal_section, .org_address { display:block }

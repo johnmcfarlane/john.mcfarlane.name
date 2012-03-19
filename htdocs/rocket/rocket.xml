@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink">
+
+<!--defs>
+	<text id="star" fill-opacity="1">*</text>
+	<image id="star" xlink:href="star.png"/>
+</defs-->
+
+<defs>
+	<radialGradient id="lazer" gradientUnits="userSpaceOnUse" cx="320" cy="320" r="320">
+		<stop offset="0" stop-color="#FF6" />
+		<stop offset=".5" stop-color="#F60" />
+		<stop offset="1" stop-color="#F00" />
+	</radialGradient>
+	
+	<!--gradientUnits=objectBoundingBox-->
+	<linearGradient id="sheen" gradientUnits="objectBoundingBox" x1="50%" y1="0%" x2="50%" y2="100%">
+		<stop offset="0" stop-color="#00f" />
+		<stop offset=".75" stop-color="#fff" />
+		<stop offset="1" stop-color="#0ff" />
+	</linearGradient>
+</defs>
+
+<!--svg id="simspace" viewBox="-500 -500 1000 1000" preserveAspectRatio="xMidYMid" fill="black"-->
+<svg id="simspace" width="640" height="640">
+	<rect width="100%" height="100%" style="fill:black"/>
+	<image id="star0" xlink:href="star.png"/>
+	<image id="star1" xlink:href="star.png"/>
+	<image id="star2" xlink:href="star.png"/>
+	<image id="star3" xlink:href="star.png"/>
+	<image id="star4" xlink:href="star.png"/>
+	<image id="star5" xlink:href="star.png"/>
+	<image id="star6" xlink:href="star.png"/>
+	<image id="star7" xlink:href="star.png"/>
+	
+	<circle id="exh0" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh1" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh2" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh3" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh4" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh5" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh6" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh7" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh8" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh9" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh10" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	<circle id="exh11" cx="20" cy="20" r="10" stroke="none" fill="white"/>
+	
+	<line id="bullet0" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet1" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet2" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet3" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet4" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet5" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet6" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet7" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet8" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet9" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet10" stroke-width="2" stroke="url(#lazer)"/>
+	<line id="bullet11" stroke-width="2" stroke="url(#lazer)"/>
+	
+	<!--use id="star0" xlink:href="#star" />
+	<use id="star1" xlink:href="#star" />
+	<use id="star2" xlink:href="#star" />
+	<use id="star3" xlink:href="#star" /-->
+	
+	<!--line id="accel" stroke="#060" stroke-width="2" /-->
+	<!--circle id="deadzone" stroke="#600" stroke-width="1" fill="none" /-->
+	<polygon id="ship" transform="translate(-10000,0)" stroke-width="2" stroke="#0ff" fill="url(#sheen)"/>
+</svg>
+
+<text id="score_text" x="0" y="20" stroke="white" fill="#444" style="font-family:sans-serif;font-size:24px">Loading...</text>
+
+	<!--image x="100" y="100" xlink:href="star.png"/>
+	<line x1="200" y1="200" x2="100" y2="100" stroke-width="1" stroke="white"/-->
+	
+<script type="text/ecmascript" xlink:href="rocket.js" />
+
+</svg>

@@ -1,0 +1,7 @@
+alternate text for images (including front page photo and loza_examples.jpg).
+w3c
+rework CV: 
+	test links
+	??rewrite Interests section??
+	Full, Clean?
+find source code for mandelbrot generator

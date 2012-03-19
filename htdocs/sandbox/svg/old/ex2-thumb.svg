@@ -1,0 +1,30 @@
+<svg version="1.1" 
+    xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!--script><![CDATA[
+        var XLINKNS = "http://www.w3.org/1999/xlink";
+        var gImgFilename = "";
+        var gHtmlWin = null;
+        if(window.frameElement && 
+            window.frameElement.ownerDocument && 
+            window.frameElement.ownerDocument.defaultView) 
+        {
+            gHtmlWin = window.frameElement.ownerDocument.defaultView;
+        }
+
+        // load the image based on the id of the embedding HTML:object element
+        function initImage() {
+            if(gHtmlWin) {
+                var gHtmlObjectId = window.frameElement.getAttributeNS(null, "id");
+                gImgFilename = gHtmlObjectId + ".jpg";
+                document.getElementById("theThumbImage").setAttributeNS(
+                    XLINKNS, "href", gHtmlObjectId + "-thumb.jpg");
+            }
+        }
+    ]]></script>
+    
+    <g id="thumbnail" onclick="if(gHtmlWin) {gHtmlWin.thumbnailClicked(gImgFilename); return false;}" cursor="pointer">
+        <rect id="blueborder" x="0" y="0" width="104" height="79" fill="blue"/>
+        <image id="theThumbImage" class="thumb" x="2" y="2" width="100" height="75"/>
+    </g-->
+</svg>

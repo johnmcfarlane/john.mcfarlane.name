@@ -1,0 +1,17 @@
+table.album {
+	margin-left: auto; 
+	margin-right: auto; 
+	text-align: center
+}
+tr.thumbnail {
+	vertical-align: middle
+}
+td.thumbnail {
+	padding-top:10px;
+}
+tr.title {
+	vertical-align: top;
+}
+td.title {
+	padding-bottom:10px;
+}

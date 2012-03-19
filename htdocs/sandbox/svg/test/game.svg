@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg
+	version="1.1" 
+	xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" 
+	onload="initGame()"
+	onkeydown="onkey(event)"
+	onkeyup="onkey(event)"
+	onmousemove="onmousemove">
+
+<script type="text/ecmascript" xlink:href="game.js" />
+
+<defs>
+	<text id="star" fill-opacity="1">*</text>
+</defs>
+
+<!--svg id="simspace" viewBox="-500 -500 1000 1000" preserveAspectRatio="xMidYMid" fill="black"-->
+<svg id="simspace" viewBox="-320 -320 640 640" width="640" height="640" fill="black">
+	<!--rect width="100%" height="100%" style="fill:black"/-->
+	<use id="star0" xlink:href="#star" />
+	<use id="star1" xlink:href="#star" />
+	<use id="star2" xlink:href="#star" />
+	<use id="star3" xlink:href="#star" />
+	<use id="star4" xlink:href="#star" />
+	<use id="star25" xlink:href="#star" />
+	<use id="star6" xlink:href="#star" />
+	<use id="star7" xlink:href="#star" />
+	<use id="star8" xlink:href="#star" />
+	<use id="star9" xlink:href="#star" />
+	<use id="star10" xlink:href="#star" />
+	<use id="star11" xlink:href="#star" />
+	<use id="star12" xlink:href="#star" />
+	<use id="star13" xlink:href="#star" />
+	<use id="star14" xlink:href="#star" />
+	<use id="star15" xlink:href="#star" />
+	<use id="star16" xlink:href="#star" />
+	<use id="star17" xlink:href="#star" />
+	<use id="star18" xlink:href="#star" />
+	<use id="star19" xlink:href="#star" />
+	<!--circle id="crosshair" cx="-10000" cy="-10000" r="10" stroke="white" stroke-width="2" fill="none" /-->
+	<!--line id="accel" stroke="#060" stroke-width="2" /-->
+	<!--circle id="deadzone" stroke="#600" stroke-width="1" fill="none" /-->
+	<polygon id="ship" transform="translate(0,0)" stroke-width="2" stroke="white" fill="#444"/>
+</svg>
+
+<text id="score_text" x="0" y="20" stroke="white" fill="#444" style="font-family:sans-serif;font-size:24px">Hello!</text>
+
+</svg>
