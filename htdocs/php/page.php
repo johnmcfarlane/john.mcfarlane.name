@@ -86,7 +86,7 @@ function end_body($footer = TRUE)
 	{
 ?>
 <div id="footer">
-	<p id="copyright">&copy;2011 John McFarlane</p>
+	<p id="copyright">&copy;2014 John McFarlane</p>
 	<p id="validation">
 		<a href="http://validator.w3.org/check/referer">XHTML</a> - 
 		<a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a>

@@ -29,9 +29,9 @@
 	}?>
 
 	<?php button("LinkedIn profile", "http://www.linkedin.com/img/webpromo/btn_linkedin_120x30.gif", "http://www.linkedin.com/in/johnmcfarlane"); ?> -
-	<?php button("Follow on Buzz", "http://www.google.com/images/icons/ui/gprofile_button-32.png", "https://plus.google.com/110202519902799314719/about"); ?> -
+	<?php button("Google+", "//ssl.gstatic.com/images/icons/gplus-32.png", "//plus.google.com/110202519902799314719?prsrc=3"); ?> -
 	<?php button("Facebook profile", "http://badge.facebook.com/badge/726024281.162.2106066251.png", "http://www.facebook.com/p/John_McFarlane/726024281"); ?> -
-	<?php button("Videos", "http://img172.imageshack.us/img172/9454/youtubeev0.gif", "http://youtube.com/mcfirkin"); ?> -
+	<?php button("Videos", "http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png", "http://youtube.com/mcfirkin"); ?> -
 	<?php button("Blog", "http://buttons.blogger.com/blogger-simple-white.gif", "http://johnspermanentvacation.blogspot.com"); ?>
 
 	<!-- In case you care, I tried to use the generated script, but when placed inside a div on Firefox, it comes out wrong -->

@@ -5,8 +5,9 @@
 	begin_body();
 ?>
 <h1>Projects</h1>
-<h2 class="project_year">2009-2011</h2>
+<h2 class="project_year">2009-present</h2>
 <?php include("about_crag.php"); ?>
+<h2 class="project_year">2010</h2>
 <?php include("about_plasma.php"); ?>
 <h2 class="project_year">2007</h2>
 <?php include("about_rocket.php"); ?>
