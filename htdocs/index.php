@@ -28,6 +28,7 @@
 		echo "</a>";
 	}?>
 
+	<?php button("Twitter", "https://g.twimg.com/Twitter_logo_blue.png", "https://twitter.com/JSAMcFarlane"); ?> - 
 	<?php button("LinkedIn profile", "http://www.linkedin.com/img/webpromo/btn_linkedin_120x30.gif", "http://www.linkedin.com/in/johnmcfarlane"); ?> -
 	<?php button("Google+", "//ssl.gstatic.com/images/icons/gplus-32.png", "//plus.google.com/110202519902799314719?prsrc=3"); ?> -
 	<?php button("Facebook profile", "http://badge.facebook.com/badge/726024281.162.2106066251.png", "http://www.facebook.com/p/John_McFarlane/726024281"); ?> -
