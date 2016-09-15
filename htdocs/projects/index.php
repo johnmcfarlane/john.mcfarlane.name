@@ -5,6 +5,8 @@
 	begin_body();
 ?>
 <h1>Projects</h1>
+<h2 class="project_year">2015-present</h2>
+<?php include("about_fixed_point.php"); ?>
 <h2 class="project_year">2009-present</h2>
 <?php include("about_crag.php"); ?>
 <h2 class="project_year">2010</h2>

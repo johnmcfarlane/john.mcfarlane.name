@@ -76,4 +76,9 @@
 </div>
 
 
+<div class="buttons">
+<a href="http://stackexchange.com/users/341106/jmcf"><img src="http://stackexchange.com/users/flair/341106.png" width="208" height="58" alt="profile for JMcF on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for JMcF on Stack Exchange, a network of free, community-driven Q&amp;A sites" /></a>
+</div>
+
+
 <?php end_body(); ?>
