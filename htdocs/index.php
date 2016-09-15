@@ -32,7 +32,7 @@
 	<?php button("GitHub", "https://assets.github.com/images/icons/emoji/octocat.png", "https://github.com/johnmcfarlane"); ?> &nbsp;
 	<?php button("LinkedIn profile", "http://www.linkedin.com/img/webpromo/btn_linkedin_120x30.gif", "http://www.linkedin.com/in/johnmcfarlane"); ?> &nbsp;
 	<?php button("Google+", "//ssl.gstatic.com/images/icons/gplus-32.png", "//plus.google.com/110202519902799314719?prsrc=3"); ?> &nbsp;
-	<?php button("Facebook profile", "http://badge.facebook.com/badge/726024281.162.2106066251.png", "http://www.facebook.com/p/John_McFarlane/726024281"); ?> &nbsp;
+	<?php button("Facebook profile", "http://badge.facebook.com/badge/726024281.162.2106066251.png", "https://www.facebook.com/John.S.A.McFarlane"); ?> &nbsp;
 	<?php button("Videos", "http://www.youtube.com/yt/brand/media/image/YouTube-icon-full_color.png", "http://youtube.com/mcfirkin"); ?> &nbsp;
 	<?php button("Blog", "http://buttons.blogger.com/blogger-simple-white.gif", "http://johnspermanentvacation.blogspot.com"); ?>
 
